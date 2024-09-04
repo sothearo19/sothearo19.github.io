@@ -1,21 +1,22 @@
+import { Link } from "gatsby";
 import * as React from "react";
 
 export default function Header() {
   const links = [
-    { name: "Home", href: "/" },
-    { name: "About", href: "/about" },
-    { name: "Blog", href: "/blog" },
+    { name: "Home", path: "/" },
+    { name: "About", path: "/about" },
+    { name: "Blog", path: "/blog" },
   ];
   return (
-    <header className="sticky top-0 drop-shadow">
+    <header className="sticky top-0 border-b drop-shadow-sm">
       <div className="container py-4">
         <nav>
-          <ul className="flex gap-4">
+          <ul className="flex gap-6">
             {links.map((link) => (
               <li key={link.name}>
-                <a href={link.href} className="my-2.5">
+                <Link className="py-2.5" to={link.path}>
                   {link.name}
-                </a>
+                </Link>
               </li>
             ))}
           </ul>

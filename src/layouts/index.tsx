@@ -7,7 +7,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       <Header />
       <div
         className="fixed inset-0 pointer-events-none mix-blend-hard-light"
-        style={{ backgroundImage: "url(noise.png)" }}
+        style={{ backgroundImage: "url(/noise.png)" }}
       ></div>
       <main className="container py-4">{children}</main>
     </>

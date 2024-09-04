@@ -22,6 +22,6 @@ module.exports = {
       lg: '1280px',
     }
   },
-  plugins: ['gatsby-plugin-postcss'],
+  plugins: [],
 }
 
