@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunksothearo=self.webpackChunksothearo||[]).push([[49],{2766:function(e,t,a){a.r(t);var u=a(7294);t.default=()=>u.createElement("h1",null,"About Page")}}]);
+//# sourceMappingURL=component---src-pages-about-tsx-516e417b0cd0f7ce795b.js.map

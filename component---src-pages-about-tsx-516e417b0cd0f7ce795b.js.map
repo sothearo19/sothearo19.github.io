@@ -1,0 +1,1 @@
+{"version":3,"file":"component---src-pages-about-tsx-516e417b0cd0f7ce795b.js","mappings":"6HAMA,UAJkB,IACTA,EAAAA,cAAAA,KAAAA,KAAI,a","sources":["webpack://sothearo/./src/pages/about.tsx"],"sourcesContent":["import * as React from \"react\";\n\nconst AboutPage = () => {\n  return <h1>About Page</h1>;\n};\n\nexport default AboutPage;\n"],"names":["React"],"sourceRoot":""}
